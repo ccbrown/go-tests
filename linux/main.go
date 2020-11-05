@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// #cgo LDFLAGS: ./staticlib/libsfoo.a ./dylib/libfoo.dylib
+// #cgo LDFLAGS: ./staticlib/libsfoo.a ./dylib/libfoo.so
 // #include "lib.h"
 import "C"
 
